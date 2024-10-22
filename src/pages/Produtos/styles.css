@@ -1,0 +1,72 @@
+.body{
+    width: 1440px;
+    height: 900px;
+    background: #F0F0F0;
+}
+
+.title__products{
+    color: var(--text-primary, rgba(0, 0, 0, 0.87));
+    font-feature-settings: 'liga' off, 'clig' off;
+    position: fixed;
+    top: 78px;
+    left: 212px;
+
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 116.7%; /* 56.016px */
+}
+
+.sube__title--products{
+    color: rgba(0, 0, 0, 0.87);
+    font-feature-settings: 'liga' off, 'clig' off;
+    position: fixed;
+    top: 220px;
+    left: 212px;
+    font-family: Roboto;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123.5%; /* 41.99px */
+    letter-spacing: 0.25px;
+}
+
+.barra__products{
+    display: flex;
+    margin-top: 19px;
+    width: 1640px;
+    height: 2px;
+    position: fixed;
+    bottom: 150px;
+    left: 236px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: rgba(191, 191, 191, 1);
+}
+
+.product__button--add{
+    display: inline-flex;
+    padding: 6px 16px;
+    flex-direction: column;
+    position: fixed;
+    top: 780px;
+    left: 233px;
+    margin-top: 98px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: var(--primary-main, #007DFF);
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.20), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    
+    color: var(--primary-contrast-text, #FFF);
+    /* button */
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}

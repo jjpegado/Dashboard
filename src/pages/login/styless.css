@@ -1,0 +1,156 @@
+body{
+    background: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 392px;
+    height: 562px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    border-radius: 16px;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 8px 9px -5px rgba(0, 0, 0, 0.20),
+        0px 15px 22px 2px rgba(0, 0, 0, 0.14),
+        0px 6px 28px 5px rgba(0, 0, 0, 0.12);
+
+        .tilte{
+            width: 259px;
+            height: 42px;
+            flex-shrink: 0;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.87);
+            font-feature-settings: 'liga' off, 'clig' off;
+
+            font-family: Roboto;
+            font-size: 34px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 123.5%; 
+            letter-spacing: 0.25px;
+        }
+
+        .container__form{
+            display: inline-flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+
+            .container__form--input{
+                display: inline-flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px; 
+
+                .img__senha{
+                    width: 20px;
+                    height: 20px;
+                    padding-bottom: 4px;
+                    
+                    left: 725px;
+                }
+
+                .label__form--login{
+                    color:  rgba(0, 0, 0, 0.54);
+                    font-feature-settings: 'liga' off, 'clig' off;
+                    font-family: Roboto;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 12px;
+                    letter-spacing: 0.15px;
+                }
+                
+                .input__form--login:focus {
+                    outline: none;
+                    border-bottom: 1px solid #007DFF; 
+                }
+
+                .input__form--login:focus + .label__form--login{
+                    color: #007DFF;
+                }
+
+                .input__form--login{
+                    align-self: stretch;
+                    border: none;
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.54);
+                    display: flex;
+                    width: 220px;
+                    height: 19px;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .ocultar{
+                    width: 24px;
+                    height: 24px;
+                    flex-shrink: 0;
+                    display: inline-flex;
+                    padding: 0px 2px;
+                    float: left;
+                    margin-left: 0;
+                    gap: 10px;
+                    }
+        
+                    /* .underline{
+                        width: 220px;
+                        height: 1px;
+                        opacity: 0.42;
+                        background: #000;
+                    } */
+            }
+
+            .button__form--login{
+                margin-top: 16px;
+                margin-left: 70px;
+                display: flex;
+                padding: 6px 16px;
+                flex-direction: column;
+                align-items: center;
+                gap: 8px;
+                border-radius: 4px;
+                background: #007DFF;
+
+                color: var(--primary-contrast-text, #FFF);
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px; /* 171.429% */
+                letter-spacing: 0.4px;
+                text-transform: uppercase;
+            }
+
+            .text__form--login{
+                margin-top: 8px;
+
+                color: rgba(0, 0, 0, 0.87);
+                font-feature-settings: 'liga' off, 'clig' off;
+                font-family: Roboto;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 166%; /* 19.92px */
+                letter-spacing: 0.4px;
+            }
+
+            .link{
+                color: #007DFF;
+                font-feature-settings: 'liga' off, 'clig' off;
+                font-family: Roboto;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 166%; /* 19.92px */
+                letter-spacing: 0.4px;
+                text-decoration-line: underline;
+                text-transform: uppercase;
+            }
+        }
+
+}

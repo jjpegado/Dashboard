@@ -1,0 +1,87 @@
+.form__editProduct{
+    position: fixed;
+    left: 220px;
+    top: 350px;
+    display: flex;
+    height: 250px;
+    gap: 48px;
+    flex-direction: column;
+
+    .container__addproduct{
+        display: flex;
+        width: 392px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+
+        .label__addproduct{
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--text-secondary, rgba(0, 0, 0, 0.54));
+            font-feature-settings: 'liga' off, 'clig' off;
+            font-family: Roboto;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 12px; /* 100% */
+            letter-spacing: 0.15px;
+        }
+
+        .input__addproduct{
+            align-self: stretch;
+            border: none;
+            display: flex;
+            width: 185px;
+            height: 19px;
+            flex-direction: column;
+            align-items: center;
+            background: #EEE;
+        }
+
+        .barra__addproduct{
+            width: 392px;
+            height: 1px;
+            opacity: 0.42;
+            background: #000;
+        }
+    }
+}
+.barra__full--addproduct{
+    display: flex;
+    width: 1440px;
+    height: 1px;
+    padding-top: 1px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    position: fixed;
+    background: #BFBFBF;
+    bottom: 120px;
+    left: 220px;
+}
+
+.profile__button{
+    left: 216px; 
+    display: inline-flex;
+    padding: 6px 16px;
+    flex-direction: column;
+    position: fixed;
+    top: 780px;
+    margin-top: 98px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: var(--primary-main, #007DFF);
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.20), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    
+    color: var(--primary-contrast-text, #FFF);
+    /* button */
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
